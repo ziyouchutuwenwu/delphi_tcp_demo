@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/12 18:01:03.000.175,=C:\Users\mmc\Documents\RAD Studio\Projects\AppletModule1.pas</Transaction>
+    <Transaction>2021/02/12 18:52:11.000.174,=C:\Users\mmc\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/13 16:40:48.000.661,=C:\Users\mmc\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/16 14:45:10.000.860,=C:\Users\mmc\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/16 14:45:28.000.534,D:\Desktop\tcp_demo\Unit1.pas=C:\Users\mmc\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/16 14:45:28.000.534,D:\Desktop\tcp_demo\Unit1.dfm=C:\Users\mmc\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/02/16 14:45:30.000.291,D:\Desktop\tcp_demo\Project1.dproj=C:\Users\mmc\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/02/16 14:49:47.000.469,=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 14:50:19.000.694,D:\Desktop\tcp_demo\tcp_client\pkg_header.pas=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 14:58:10.000.455,=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 14:59:56.000.056,D:\Desktop\tcp_demo\tcp_client\pkg_sender.pas=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 15:15:40.000.241,=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 15:16:08.000.506,D:\Desktop\tcp_demo\tcp_client\pkg_recv.pas=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 15:51:30.000.643,=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 15:52:08.000.773,D:\Desktop\tcp_demo\tcp_client\tcp_client.pas=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 17:22:21.000.977,=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 17:23:25.000.878,D:\Desktop\tcp_demo\Unit2.pas=D:\Desktop\tcp_demo\tcp_client\pkg_callback.pas</Transaction>
+    <Transaction>2021/02/16 17:23:45.000.091,=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 17:25:52.000.704,D:\Desktop\tcp_demo\Unit2.pas=D:\Desktop\tcp_demo\tcp_client\tcp_callback.pas</Transaction>
+    <Transaction>2021/02/16 18:05:42.000.205,=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 18:06:13.000.074,D:\Desktop\tcp_demo\Unit2.pas=D:\Desktop\tcp_demo\tcp_client\read_thread.pas</Transaction>
+    <Transaction>2021/02/16 18:17:02.000.903,D:\Desktop\tcp_demo\tcp_client\read_thread.pas=</Transaction>
+    <Transaction>2021/02/16 18:21:17.000.224,=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 18:21:55.000.670,D:\Desktop\tcp_demo\tcp_client\read_thread.pas=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 18:42:24.000.600,=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 18:44:01.000.176,D:\Desktop\tcp_demo\tcp_client\thread_callback.pas=D:\Desktop\tcp_demo\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 19:12:24.000.046,D:\Desktop\tcp_demo\tcp_client\thread_callback.pas=</Transaction>
+    <Transaction>2021/02/16 19:12:24.000.035,D:\Desktop\tcp_demo\tcp_client\read_thread.pas=</Transaction>
+    <Transaction>2021/02/16 19:21:55.000.046,D:\Desktop\tcp_demo\Unit1.dfm=D:\Desktop\tcp_demo\mainFrom.dfm</Transaction>
+    <Transaction>2021/02/16 19:21:55.000.046,D:\Desktop\tcp_demo\Unit1.pas=D:\Desktop\tcp_demo\mainFrom.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="tcp_client"/>
+    <File Path="tcp_client\pkg_callback.pas"/>
+    <File Path="tcp_client\pkg_header.pas"/>
+    <File Path="tcp_client\pkg_recv.pas"/>
+    <File Path="tcp_client\pkg_sender.pas"/>
+    <File Path="tcp_client\tcp_callback.pas"/>
+    <File Path="tcp_client\tcp_client.pas"/>
+    <File Path="mainFrom.pas"/>
+    <File Path="mainFrom.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
