@@ -6,7 +6,6 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, WinSock, StdCtrls, pkg_header, pkg_callback;
 
-
 type
   PkgRecv = class(TObject)
   private
@@ -36,20 +35,19 @@ begin
 end;
 
 procedure PkgRecv.loopRead(socket : Integer; pkgHeaderOption : pkg_header.PkgHeaderOption);
+const
+  READ_BUFFER_SIZE = 8;
 var
-  // ÕâÀï²»ÄÜÓÃ¶¯Ì¬Êı×é
-  readBuffer : array[0..8] of byte;
-  readBufferSize : Integer;
+  // è¿™é‡Œä¸èƒ½ç”¨åŠ¨æ€æ•°ç»„
+  readBuffer : array[0..READ_BUFFER_SIZE] of byte;
   readLen : Integer;
 
   buffer : TBytes;
   totalData : TBytes;
 begin
-  readBufferSize := 8;
-
   while(true) do
   begin
-    readLen := WinSock.recv(socket, readBuffer, readBufferSize, 0);
+    readLen := WinSock.recv(socket, readBuffer, READ_BUFFER_SIZE, 0);
 
     if readLen <= 0 then
     begin
@@ -101,7 +99,7 @@ begin
     begin
       frameLen := pkgHeaderOption.headerSize + dataLen;
 
-      // Ò»°üÊı¾İ
+      // ä¸€åŒ…æ•°æ®
       SetLength(frameData, frameLen - pkgHeaderOption.headerSize);
       CopyMemory(frameData, @totalData[pkgHeaderOption.headerSize], frameLen - pkgHeaderOption.headerSize);
       if Self._pkgCallBack <> nil then
