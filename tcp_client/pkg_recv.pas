@@ -1,4 +1,4 @@
-unit pkg_recv;
+﻿unit pkg_recv;
 
 interface
 
@@ -12,13 +12,13 @@ type
     _savedData : TBytes;
     _pkgCallBack: IPkgCallBack;
 
+    function getDataLenthFromHeader(buffer : TBytes; pkgHeaderOption : pkg_header.PkgHeaderOption): Integer;
+    procedure dealWithData(totalData : TBytes; pkgHeaderOption : pkg_header.PkgHeaderOption);
+
   public
     constructor Create(); virtual;
-
     procedure setPkgCallBack(callback : IPkgCallBack);
-    function getDataLenthFromHeader(buffer : TBytes; pkgHeaderOption : pkg_header.PkgHeaderOption): Integer;
     procedure loopRead(socket : Integer; pkgHeaderOption : pkg_header.PkgHeaderOption);
-    procedure dealWithData(totalData : TBytes; pkgHeaderOption : pkg_header.PkgHeaderOption);
   end;
 implementation
 
